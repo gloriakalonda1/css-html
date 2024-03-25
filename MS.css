@@ -1,0 +1,78 @@
+/* style.css */
+
+/* Styles spécifiques au formulaire */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    border: 1px solid #d1d5db; /* Couleur du bord */
+    padding: 0.5rem; /* Remplissage */
+    margin-top: 0.5rem; /* Marge en haut */
+}
+
+/* Styles pour les boutons */
+button {
+    cursor: pointer; /* Curseur pointeur */
+}
+
+/* Styles pour les boutons "Envoyer" */
+button[type="submit"] {
+    background-color: #ff9900; /* Couleur de fond orange */
+    color: #fff; /* Couleur du texte blanc */
+    border: none; /* Supprimer les bordures */
+    padding: 1rem 2rem; /* Remplissage */
+    border-radius: 9999px; /* Bordures arrondies */
+    font-weight: bold; /* Texte en gras */
+}
+
+/* Styles pour les boutons "Réinitialiser" */
+button[type="reset"] {
+    background-color: transparent; /* Fond transparent */
+    color: #808080; /* Couleur du texte gris */
+    border: 1px solid #d1d5db; /* Bordure grise */
+    padding: 1rem 2rem; /* Remplissage */
+    border-radius: 9999px; /* Bordures arrondies */
+    font-weight: bold; /* Texte en gras */
+}
+
+/* Styles pour les boutons au survol */
+button:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre portée */
+}
+
+/* Styles pour les boutons "Réinitialiser" au survol */
+button[type="reset"]:hover {
+    border-color: #ff9900; /* Changement de la couleur de la bordure en orange */
+    color: #ff9900; /* Changement de la couleur du texte en orange */
+}
+
+/* Styles pour les instructions */
+.text-xs {
+    font-size: 0.75rem; /* Taille de la police plus petite */
+    font-weight: normal; /* Texte normal */
+    color: #a0aec0; /* Couleur du texte grise */
+}
+/* styles.css */
+
+/* Personnalisation du textarea */
+textarea {
+    width: 100%; /* Largeur de 100% */
+    border: 1px solid #d1d5db; /* Bordure de 1px solide */
+    padding: 0.5rem; /* Remplissage de 0.5rem */
+    margin-top: 0.5rem; /* Marge en haut de 0.5rem */
+    resize: vertical; /* Autoriser le redimensionnement vertical */
+    min-height: 5rem; /* Hauteur minimale de 5rem */
+    max-height: 15rem; /* Hauteur maximale de 15rem */
+    overflow-y: auto; /* Défilement vertical automatique si nécessaire */
+}
+
+/* Personnalisation du textarea au survol */
+textarea:hover {
+    border-color: #4a5568; /* Changement de couleur de la bordure au survol */
+}
+
+/* Personnalisation du placeholder */
+textarea::placeholder {
+    color: #a0aec0; /* Couleur du placeholder */
+    font-style: italic; /* Style d'écriture en italique */
+}
